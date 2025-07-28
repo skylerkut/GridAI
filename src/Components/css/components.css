@@ -1,0 +1,70 @@
+.node-info {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    padding: 10px;
+    background-color: #f9f9fb;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(10, 10, 10, .25);
+  }
+  
+  .link-info {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    padding: 10px;
+    background-color: #f9f9fb;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(10, 10, 10, .25);
+  }
+
+  .close-button {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: #ff3d3d; 
+    cursor: pointer;
+    position: fixed;
+    top: 0px;
+    right: 10px;
+  }
+  
+  .close-button:hover {
+    color: #ff1a1a; /* darker red*/
+    transform: scale(1.25);
+  }
+
+  .collapse-button {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: #333; 
+    cursor: pointer;
+    position: fixed;
+    top: 4px;
+    right: 37px;
+  }
+
+  .collapse-button:hover {
+    color: black;
+    transform: scale(1.25);
+  }
+
+  .collapse-graph-button:hover {
+    color: black;
+    transform: scale(1.25);
+  }
+
+  .header {
+    display: flex; 
+    justify-content:left; 
+    align-items: center; 
+  }
+
+  .info-title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }

@@ -1,0 +1,64 @@
+
+.settings-button {
+    background: transparent;
+    cursor: pointer;
+    border: none;
+  }
+
+  .settings-button:hover {
+    animation: rotate 2s linear infinite;
+}
+
+  .icons-button {
+    background: transparent;
+    cursor: pointer;
+    border: none;
+  }
+
+  .icons-button:hover {
+    transform: scale(1.25);
+  }
+
+  /* Rotate animation for settings button */
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .settings-close:hover {
+    transform: scale(1.25);
+  }
+
+  .settings-option {
+    margin-bottom: 15px;
+  }
+  
+  .settings-option label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left;
+  }
+
+  .settings-container {
+    position: fixed; 
+    width: 300px;
+    top: 70px;
+    left: 20px;
+    background-color: #f9f9fb;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(10, 10, 10, .25);
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .settings-header {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }

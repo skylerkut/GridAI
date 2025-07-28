@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <!-- Outer Circle Surrounding the Symbol -->
+  <circle cx="12" cy="12" r="10" stroke="black" stroke-width="2" fill="white" />
+  
+  <!-- First Line (Ends at the left edge of the first circle) -->
+  <line x1="2" y1="12" x2="7" y2="12" stroke="black" stroke-width="2" />
+  
+  <!-- Hollow Circle at the Right End of the First Line -->
+  <circle cx="8" cy="12" r="2" stroke="black" stroke-width="2" fill="none" />
+  
+  <!-- Second Line (At 45-degree angle starting from the edge of the first circle) -->
+  <line x1="9" y1="11" x2="13" y2="6" stroke="black" stroke-width="2" />
+  
+  <!-- Disconnected Circle at the Right -->
+  <circle cx="16" cy="12" r="2" stroke="black" stroke-width="2" fill="none" />
+  
+  <!-- Third Line (Ends exactly at the right edge of the last circle) -->
+  <line x1="17" y1="12" x2="22" y2="12" stroke="black" stroke-width="2" />
+</svg>
+
+
+
+
+
+
