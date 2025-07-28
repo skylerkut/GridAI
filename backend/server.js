@@ -10,7 +10,7 @@ const userRoutes = require("./endpoints/user");
 const iconRoutes = require("./endpoints/icons");
 
 require('dotenv').config();
-const URI =  'mongodb+srv://defaultUser:defaultPass@backend-data.gpwaf.mongodb.net/backend-data?retryWrites=true&w=majority&appName=backend-data';
+const URI =  ''; //Database link here, removed from git upload for security
 
 app.use(cors());
 app.use(express.json());
